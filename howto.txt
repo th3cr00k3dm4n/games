@@ -1,0 +1,16 @@
+       × ͜ ×
+
+Type "bastet" to run the tetris game
+
+Type "pacman" to run the pacman game
+
+Type "moon-buggy" to run the moon-buggy game
+
+Type "nsnake" to run the game.
+If you get Error, Just Zoom out Your screen and it will be solved.
+
+
+Type "nudoku" to run the Sudoku game
+
+enjoy :)
+   th3cr00kedm4n 
