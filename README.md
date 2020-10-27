@@ -16,6 +16,8 @@ Games for termux
 
 • $ ./games.sh  or sh games.sh
 
-To run games view file "howto.txt"
+That's it enjoy
 
-• $ cat howto.txt
+
+Note : extra keys are required to play games (dont worry its all in it just restart termux )
+   ! Some games require screen to be adjusted !
