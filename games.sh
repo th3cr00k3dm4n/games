@@ -2,11 +2,10 @@
 clear
 pkg=("bastet" "pacman4console" "moon-buggy" "nsnake" "nudoku")
  dpkg -s ${pkg[@]}
-if [ $?=0 ];
+if [ $?=0];
  then
+    [ pkg install ${pkg[@]} -y ]
  echo " GAMES ARE ALREADY INSTALLED"
-else
- [ pkg install ${pkg[@]} -y ]
 fi
 echo ""
 echo ""
