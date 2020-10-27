@@ -4,17 +4,16 @@ pkg=("bastet" "pacman4console" "moon-buggy" "nsnake" "nudoku")
  dpkg -s ${pkg[@]}
 if [ $?=0 ];
  then
-mkdir $HOME/.termux/ ;echo "extra-keys = [['ESC','/','-','HOME','UP','END'],['TAB','CTRL','ALT','LEFT','DOWN','RIGHT']]" >> $HOME/.termux/termux.properties && termux-reload-settings && sleep 1
-     echo " GAMES ARE ALREADY INSTALLED"
-   else
+ echo " GAMES ARE ALREADY INSTALLED"
+else
  [ pkg install ${pkg[@]} -y ]
- mkdir $HOME/.termux/ ;echo "extra-keys = [['ESC','/','-','HOME','UP','END'],['TAB','CTRL','ALT','LEFT','DOWN','RIGHT']]" >> $HOME/.termux/termux.properties && termux-reload-settings && sleep 1
-
+fi
 echo ""
 echo ""
+mkdir $HOME/.termux/ ;echo "extra-keys = [['ESC','/','-','HOME','UP','END'],['TAB','CTRL','ALT','LEFT','DOWN','RIGHT']]" >> $HOME/.termux/termux.properties && termux-reload-settings && sleep 1
+echo""
 echo "loading games..........."
 echo ""
-fi
 clear
 echo -e "\e[1;31m All games have been installed :)\e[0m "
 echo -e "\e[1;31m !Restart is requried to add extra keys to play games !!\e[0m "
