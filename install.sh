@@ -13,6 +13,6 @@ mkdir $HOME/.termux/ ;echo "extra-keys = [['ESC','/','-','HOME','UP','END'],['TA
 
 
 echo -e "\e[1;31m All games have been installed :)\e[0m "
-echo -e "\e[1;31m! To run each game see howto.txt file !!!!!!\e[0m "
+echo -e "\e[1;31m! To run each game see usage.txt file !!!!!!\e[0m "
 echo -e "\e[1;31m !Restart is requried to add extra keys to play games !!\e[0m "
 
