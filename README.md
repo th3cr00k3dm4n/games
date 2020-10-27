@@ -14,7 +14,7 @@ Games for termux
 
 • $ chmod +x * 
 
-• $ ./install.sh  or sh install.sh
+• $ ./games.sh  or sh games.sh
 
 To run games view file "howto.txt"
 
