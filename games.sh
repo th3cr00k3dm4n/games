@@ -1,7 +1,5 @@
 #!/bin/bash
-#plz don't copy this code without giving me credit
-#you don't become codder by copying !
-pkg=( "nsnake" "bastet" "nudoku" "moon-buggy" "pacman4console" "ninvaders" "nethack"  )
+pkg=( "nsnake" "bastet" "nudoku" "moon-buggy" "pacman4console"   )
 
 banner()
 {
@@ -22,7 +20,7 @@ run_script()
   banner
 
 PS3='SELECT A GAME : '
-options=("snake" "sudoku" "pacman" "moon-buggy" "tetris" "ninvaders" "nethack" "About" "Quit")
+options=("snake" "sudoku" "pacman" "moon-buggy" "tetris"  "About" "Quit")
 select opt in "${options[@]}"
 do
     case $opt in
@@ -54,20 +52,7 @@ break
          "tetris")
          clear
             bastet
- break
-            ;;
-
-         "ninvaders")
-         clear
-            nInvaders       
-            
-  
-  break
-            ;;
-
-         "nethack")
-         clear
-            nethack   
+ 
             
  break
             ;;
