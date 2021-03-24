@@ -1,5 +1,7 @@
 #!/bin/bash
-pkg=( "nsnake" "bastet" "nudoku" "moon-buggy" "pacman4console" )
+#plz don't copy this code without giving me credit
+#you don't become codder by copying !
+pkg=( "nsnake" "bastet" "nudoku" "moon-buggy" "pacman4console" "ninvaders" "nethack"  )
 
 banner()
 {
@@ -7,8 +9,12 @@ banner()
 echo ""
 echo "         █▀▀ ▄▀█ █▀▄▀█ █▀▀ █▀"
 echo "         █▄█ █▀█ █░▀░█ ██▄ ▄█"
-echo "                             "
-echo "                             °th3cr00k3dm4n"
+echo "                   𝔽𝕆ℝ 𝕋𝔼ℝ𝕄𝕌𝕏    "
+echo "                  {th3cr00k3dm4n}"
+echo "     -------------https://bit.ly/th3cr00k3dm4n--------------- ”
+echo "   #plz don't copy this code without giving me credit "
+echo "   #you don't become codder by copying ! "
+echo " ---------------------------------------++++------------------------------------------"
 }
 
 run_script()
@@ -16,7 +22,7 @@ run_script()
   banner
 
 PS3='SELECT A GAME : '
-options=("snake" "sudoku" "pacman" "moon-buggy" "tetris" "Quit")
+options=("snake" "sudoku" "pacman" "moon-buggy" "tetris" "ninvaders" "nethack" "About" "Quit")
 select opt in "${options[@]}"
 do
     case $opt in
@@ -48,6 +54,35 @@ break
          "tetris")
          clear
             bastet
+ break
+            ;;
+
+         "ninvaders")
+         clear
+            nInvaders       
+            
+  
+  break
+            ;;
+
+         "nethack")
+         clear
+            nethack   
+            
+ break
+            ;;
+
+         "About")
+         clear
+  banner
+  echo "𝔾𝔸𝕄𝔼𝕊 𝔽𝕆ℝ 𝕋𝔼ℝ𝕄𝕌𝕏"
+  echo ""
+  echo "Codded by : th3cr00kedm4n
+  echo "visit https://bit.ly/th3cr00k3dm4n for more"
+  echo "thanks for your support and don't forget to give a star on github"
+  echo "GitHub : https://github.com/th3cr00k3dm4n "
+  
+            
 break
             ;;
         "Quit")
