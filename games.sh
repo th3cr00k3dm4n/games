@@ -7,12 +7,8 @@ banner()
 echo ""
 echo "         █▀▀ ▄▀█ █▀▄▀█ █▀▀ █▀"
 echo "         █▄█ █▀█ █░▀░█ ██▄ ▄█"
-echo "                   𝔽𝕆ℝ 𝕋𝔼ℝ𝕄𝕌𝕏    "
-echo "                  {th3cr00k3dm4n}"
-echo "     -------------https://bit.ly/th3cr00k3dm4n--------------- ”
-echo "   #plz don't copy this code without giving me credit "
-echo "   #you don't become codder by copying ! "
-echo " ---------------------------------------++++------------------------------------------"
+echo "                𝔽𝕆ℝ 𝕋𝔼ℝ𝕄𝕌𝕏    "
+echo "--------------[th3cr00k3dm4n]--------------"
 }
 
 run_script()
@@ -59,13 +55,13 @@ break
 
          "About")
          clear
-  banner
-  echo "𝔾𝔸𝕄𝔼𝕊 𝔽𝕆ℝ 𝕋𝔼ℝ𝕄𝕌𝕏"
-  echo ""
-  echo "Codded by : th3cr00kedm4n
-  echo "visit https://bit.ly/th3cr00k3dm4n for more"
-  echo "thanks for your support and don't forget to give a star on github 
-  echo "GitHub : https://github.com/th3cr00k3dm4n 
+         banner
+         echo "𝔾𝔸𝕄𝔼𝕊 𝔽𝕆ℝ 𝕋𝔼ℝ𝕄𝕌𝕏"
+         echo ""
+         echo "Codded by : th3cr00kedm4n"
+         echo "visit https://bit.ly/th3cr00k3dm4n for more"
+         echo "thanks for your support and don't forget to give a star on github"
+         echo "GitHub : https://github.com/th3cr00k3dm4n"
   
             
 break
