@@ -79,8 +79,8 @@ break
   echo ""
   echo "Codded by : th3cr00kedm4n
   echo "visit https://bit.ly/th3cr00k3dm4n for more"
-  echo "thanks for your support and don't forget to give a star on github"
-  echo "GitHub : https://github.com/th3cr00k3dm4n "
+  echo "thanks for your support and don't forget to give a star on github 
+  echo "GitHub : https://github.com/th3cr00k3dm4n 
   
             
 break
