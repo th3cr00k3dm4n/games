@@ -6,7 +6,7 @@ Games for termux
 
 • $ pkg install git
 
-• $ git clone https://github.com/th3cr00kedm4n/games.git
+• $ git clone https://github.com/th3cr00k3dm4n/games.git
 
 • $ cd
 
