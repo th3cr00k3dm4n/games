@@ -1,14 +1,16 @@
 #!/bin/bash
+#last updated on :6-5-2020-19:32
+#codded by th3cr00k3dm4n
 pkg=( "nsnake" "bastet" "nudoku" "moon-buggy" "pacman4console"   )
 
 banner()
 {
 
 echo ""
-echo "         █▀▀ ▄▀█ █▀▄▀█ █▀▀ █▀"
-echo "         █▄█ █▀█ █░▀░█ ██▄ ▄█"
-echo "                𝔽𝕆ℝ 𝕋𝔼ℝ𝕄𝕌𝕏    "
-echo "--------------[th3cr00k3dm4n]--------------"
+echo "         █▀▀ ▄▀█ █▀▄▀█ █▀▀ █▀"| lolcat
+echo "         █▄█ █▀█ █░▀░█ ██▄ ▄█"| lolcat 
+echo "                𝔽𝕆ℝ 𝕋𝔼ℝ𝕄𝕌𝕏    "| lolcat 
+echo "--------------[th3cr00k3dm4n]--------------"| lolcat -a -d 50
 }
 
 run_script()
@@ -56,7 +58,7 @@ break
          "About")
          clear
          banner
-         echo "𝔾𝔸𝕄𝔼𝕊 𝔽𝕆ℝ 𝕋𝔼ℝ𝕄𝕌𝕏"
+         echo "𝔾𝔸𝕄𝔼𝕊 𝔽𝕆ℝ 𝕋𝔼ℝ𝕄𝕌𝕏"| lolcat -a -d 500
          echo ""
          echo "Codded by : th3cr00kedm4n"
          echo "visit https://bit.ly/th3cr00k3dm4n for more"
@@ -86,7 +88,7 @@ run_install()
     then
         {
         mkdir $HOME/.termux/ ;echo "extra-keys = [['ESC','/','-','HOME','UP','END'],['TAB','CTRL','ALT','LEFT','DOWN','RIGHT']]" >> $HOME/.termux/termux.properties && termux-reload-settings && sleep 1
-        pkg install ${pkg[@]} -y
+        pkg install ruby -y && gem install lolcat &&  pkg install ${pkg[@]} -y
         if [ $? == 0 ]
         then run_script
         else  echo " failed try again" || run_install
@@ -96,7 +98,12 @@ run_install()
     fi
 }
 
+echo "installing dependency please wait " && sleep 3
+
+
+
 dpkg -s ${pkg[@]} >/dev/null 2>&1 || run_install
 if [ $? == 0 ]
 then run_script
 fi
+
