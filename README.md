@@ -1,20 +1,21 @@
-# games
-Games for termux
+<h1>Games for termux</h1>
+play games on command line :)
+<h2>Installation</h2>
+follow these steps to install classic games on your termux
 
-#follow these steps to install classic games on your termux
+```
+ $ pkg install git
 
+ $ git clone https://github.com/th3cr00k3dm4n/games.git
 
-• $ pkg install git
+ $ cd
 
-• $ git clone https://github.com/th3cr00k3dm4n/games.git
+ $ ls
 
-• $ cd
+ $ chmod +x * 
 
-• $ ls
-
-• $ chmod +x * 
-
-• $ ./games.sh  or sh games.sh
+ $ ./games.sh  or sh games.sh
+```
 
 That's it enjoy
 
