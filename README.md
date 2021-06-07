@@ -1,3 +1,4 @@
+<img src="https://img.shields.io/badge/MADE%20IN-INDIA-blue" > <img src="https://img.shields.io/badge/Language-shell-brightgreen">
 <h1>Games for termux</h1>
 play games on command line :)
 <h2>Installation</h2>
